@@ -8,5 +8,6 @@ module.exports = {
     '!src/pages/_*.tsx',
     '!src/styles/**/*'
   ],
-  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts']
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
+  modulePaths: ['<rootDir>/src/', '<rootDir>/.jest']
 }
