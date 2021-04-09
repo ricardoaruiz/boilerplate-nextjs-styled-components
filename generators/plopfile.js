@@ -19,7 +19,7 @@ module.exports = function (plop) {
       {
         type: 'add',
         path:
-          '../src/components/{{pascalCase name}}/{{pascalCase name}}.styles.js',
+          '../src/components/{{pascalCase name}}/{{pascalCase name}}.styles.ts',
         templateFile: 'templates/components/styles.ts.hbs'
       },
       {
