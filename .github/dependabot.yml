@@ -1,0 +1,28 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: eslint
+    versions:
+    - 7.23.0
+    - 7.24.0
+  - dependency-name: typescript
+    versions:
+    - 4.2.3
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.23.1
+  - dependency-name: "@types/jest"
+    versions:
+    - 26.0.22
+  - dependency-name: "@types/react"
+    versions:
+    - 17.0.3
+  - dependency-name: babel-plugin-styled-components
+    versions:
+    - 1.12.0
